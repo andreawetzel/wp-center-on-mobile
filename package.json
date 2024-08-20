@@ -1,0 +1,21 @@
+{
+	"name": "wp-center-on-mobile",
+	"version": "1.0.0",
+	"description": "Add a Center on Mobile toggle",
+	"author": "Andrea Roenning",
+	"license": "GPL-2.0-or-later",
+	"main": "build/index.js",
+	"scripts": {
+		"build": "wp-scripts build",
+		"format": "wp-scripts format",
+		"lint:css": "wp-scripts lint-style",
+		"lint:js": "wp-scripts lint-js",
+		"packages-update": "wp-scripts packages-update",
+		"plugin-zip": "wp-scripts plugin-zip",
+		"start": "wp-scripts start"
+	},
+	"devDependencies": {
+		"@wordpress/scripts": "^27.9.0",
+		"webpack-remove-empty-scripts": "^0.8.4"
+	}
+}

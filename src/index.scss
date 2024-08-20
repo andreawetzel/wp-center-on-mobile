@@ -1,0 +1,8 @@
+// CSS for both backend and frontend
+@media (max-width: 992px) {
+	.is-centered-on-mobile {
+		* {
+			text-align: center;
+		}
+	}
+}
